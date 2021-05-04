@@ -1,0 +1,581 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238); 
+    max-width: 2080px;  
+}
+header
+{
+    min-height: 70px;
+    position: relative;
+    background-color: white;
+    height: 80px;
+    overflow: hidden;
+    background-image: url(./Imagens/Logo.png);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1
+{
+    text-align: center;
+    color:rgb(247, 168, 21);
+    font-size: 7.5vw;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2
+{
+    color: rgb(247, 168, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: inline;  
+}
+p
+{
+display: inline;
+font-size: 20px;
+}
+a:hover
+{
+    color: rgb(247, 168, 21);
+    border-color: black;
+}
+ul
+{ 
+    display: inline;
+    list-style: none;
+}
+.MenuContainer
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.MenuLink
+{
+    text-decoration: none;
+    color: black; 
+    border-bottom: 1px solid #777777;
+    font-size: 20px;
+}
+
+
+.MenuList
+{
+    margin-right: 30px;
+    float: left;
+}
+#SocialMidias
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    right: 10px;
+
+}
+.SocialMidiasLink
+{
+    margin-left: 25px;
+    float: right; 
+}
+
+#FirstInformation
+{
+ position: relative;
+    background-image: url(./Imagens/DeskTop.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    height: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.MainImages
+{
+    width: 300px;
+    border-radius: 10%;
+    position: absolute;  
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.D1
+{
+    background-color: white;
+    border: solid 1px #c5c5c5;
+    position: relative;
+    clear: left;
+    height: 300px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
+.D2
+{
+    margin-left: 50px;
+    position: absolute;
+    right: 10%;
+    left: 30%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+
+#DataContainer
+{
+clear: left;
+margin-bottom: 50px;
+}
+#SearchImage
+{
+    float: left;
+    border-radius: 10%;
+    margin-left: 20px;
+    position: relative;
+    top: -25px;
+    margin-right: 10px;
+} 
+#DivDev
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    position: absolute;  
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+}
+
+#DevImage
+{
+    transform: translateY(-30px);
+}
+#DevAnimatedImage
+{
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
+#FormContainer
+{
+    position: relative;
+    background-color: white;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: solid 1px #c5c5c5;
+}
+#InsideFC
+{
+    margin: 20px;
+}
+textarea
+{
+resize: none;
+width: 50%;
+}
+@media screen and (max-width: 1174px)
+{
+.align
+{
+    text-align: left;
+}
+    #DevAnimatedImage
+    {
+        width: 250px;
+    }
+.MainImages
+{
+    width: 250px; 
+}
+#DevAbout
+{
+    height: 400px;
+}
+}
+@media screen and (max-width: 900px)
+{
+header
+    {
+background-position: 10px;
+    }
+.MenuContainer
+{
+    position: absolute;
+    left: 130px;
+}
+.MainImages
+{
+    margin: 0;
+    left: 0%;
+    right: 0%;
+    width: 200px;
+
+}
+p
+{
+  
+    font-size: 100%;
+
+}
+h2
+{
+    font-size: 100%;
+}
+.align
+{
+    text-align: left;
+}
+#FImage
+{
+    width: 200px;
+}
+.D1
+{
+    
+    height: 200px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+#FormContainer
+{
+
+margin-left: 8vw;
+margin-right: 8vw;
+
+
+}
+.D2
+{ 
+margin: 0px;
+text-align: left;
+}
+#DevImage
+{
+    width: 150px;
+    transform: translateY(-30px);
+}
+#DivDev
+{
+margin-top: 0px;
+margin-bottom: 0px;
+top: 50%;
+left: 0%;
+width: 150px;
+height: 150px;
+transform: translate(-20%,-50%);
+position: relative;
+}
+#DevAbout
+{
+    height: 300px;
+}
+}
+@media screen and (max-width: 645px)
+{
+    .SocialMidiasLink
+    {
+        clear: right;
+    }   
+    .D1
+    {
+        height: auto;
+    }
+    .MainImages
+    {
+ 
+     position: absolute;  
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        position: relative;     
+    }
+    p
+    {
+        font-size: 100%;
+    
+    }
+    h2
+    {
+        font-size: 100%;
+    }
+    .align
+    {
+        text-align: center;
+    }
+    #FImage
+    {
+        width: 200px;
+    }
+    .D2
+    {
+        margin-left: 0px;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        transform: translate(0,0%);
+        margin: 10px;
+        position: relative;
+        clear: left;
+    }
+    #DevImage
+    {
+        width: 150px;
+        transform: translateY(-30px);
+    }
+    #DivDev
+    {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    #DevAnimatedImage
+    {
+display: none;
+    }
+    textarea
+{
+ width: 100%;
+}
+#DevAbout
+{
+    height: auto;
+}
+}
+@media screen and (max-width: 420px)
+{
+    
+    header
+    {
+        background-size: 100px 100px;
+    }
+    .MenuLink
+    {
+        font-size: 15px;
+    }
+    .D1
+    {
+        height: auto;
+    }
+    .MainImages
+    {
+ 
+     position: absolute;  
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        position: relative;     
+    }
+    p
+    {
+        font-size: 100%;
+    
+    }
+    h2
+    {
+        font-size: 100%;
+    }
+    .align
+    {
+        text-align: center;
+    }
+    #FImage
+    {
+        width: 200px;
+    }
+    .D2
+    {
+        margin-left: 0px;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        transform: translate(0,0%);
+        margin: 10px;
+        position: relative;
+        clear: left;
+    }
+    #DevImage
+    {
+        width: 150px;
+        transform: translateY(-30px);
+    }
+    #DivDev
+    {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    textarea
+{
+ width: 100%;
+}
+#DevAbout
+{
+    height: auto;
+}
+}
+@media screen and (max-height: 600px)
+{
+    header
+    {
+        height: 70px;
+        background-size: 100px 100px;
+    }
+    .MenuContainer
+    {
+        left: 100px;
+    }
+    .MenuLink
+    {
+        font-size: 12px;
+    }
+    .LinkImages
+    {
+        width: 25px;
+    }
+   
+
+}
+@media screen and (max-width: 357px) /* Galaxy fold */
+{
+    header
+    {
+        height: 60px;
+        background-size: 80px 80px;
+    }
+    .MenuLink
+    {
+        font-size: 12px;
+    }
+    .LinkImages
+    {
+     width: 25px;
+    }
+    .MenuContainer
+    {
+    left: 80px;
+    }
+    .MainImages
+    {
+        width: 200px;
+        position: relative;     
+    }
+    p
+    {
+        font-size: 100%;
+    
+    }
+    h2
+    {
+        font-size: 100%;
+    }
+    .align
+    {
+        text-align: center;
+    }
+    #FImage
+    {
+        width: 200px;
+    }
+    .D1
+    {
+        height: auto;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    #FormContainer
+{
+
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+
+}
+    .D2
+    { 
+         margin-left: 0px;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        transform: translate(0,0%);
+        margin: 10px;
+        position: relative;
+        clear: left;
+    }
+    #DevImage
+    {
+        width: 150px;
+        transform: translateY(-30px);
+    }
+    #DivDev
+    {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    top: 0%;
+    position: relative;
+    }
+    #DevAbout
+    {
+        height: auto;
+    }
+    #DevAnimatedImage
+    {
+display: none;
+    }
+}   
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
