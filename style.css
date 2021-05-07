@@ -199,6 +199,19 @@ textarea
 resize: none;
 width: 50%;
 }
+#footerlink
+{
+    text-decoration: none;
+    border: solid 1px rgb(247, 168, 21);
+    color: rgb(247, 168, 21);
+    padding: 10px;
+    font-size:20px;
+}
+#footerlink:hover
+{
+    color: rgb(5, 207, 5);
+    border-color: rgb(5, 207, 5);
+}
 @media screen and (max-width: 1174px)
 {
 .align
@@ -374,9 +387,16 @@ display: none;
     height: auto;
 }
 }
+#InsideFc
+{
+    text-align: left;
+}
 @media screen and (max-width: 420px)
 {
-    
+    #InsideFc
+{
+    text-align: left;
+}
     header
     {
         background-size: 100px 100px;
@@ -455,6 +475,10 @@ display: none;
 }
 @media screen and (max-height: 600px)
 {
+    #InsideFc
+{
+    text-align: left;
+}
     header
     {
         height: 70px;
@@ -477,6 +501,10 @@ display: none;
 }
 @media screen and (max-width: 357px) /* Galaxy fold */
 {
+    #InsideFc
+{
+    text-align: left;
+}
     header
     {
         height: 60px;
